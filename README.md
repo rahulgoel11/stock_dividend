@@ -12,6 +12,7 @@ Requirement :-
 Python Files
 
 1) stock_face_value.py
+
     Run this script 1st to Update the facevalue.xlsx file
   
     This file is uses Selenium to get the FaceValue data from MoneyControl Website
@@ -25,6 +26,7 @@ Python Files
   
 
 2) stock_dividend.py
+
     Post running the stock_face_value.py script run the script to calculate the dividend declared by the companies
    
     Specify the list of stocks in stock_list.xlsx (use this site to get the format of name you should enter for you stock https://www.moneycontrol.com/india/stockpricequote/)
