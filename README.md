@@ -37,4 +37,4 @@ Python Files
    
     Note :- Use the file as a base file and store the file in same folder in which the script is place or you can specify the file path in script (@ read_excel and to_excel)
    
-PS :- Above Code is getting data from MoneyControl.com. If there is any change in Website the code may not work, If there is any changes will provide and Updated Code
+PS :- Above Code is getting data from MoneyControl.com. If there is any change in Website the code may not work, If there is any changes will provide Updated Code
