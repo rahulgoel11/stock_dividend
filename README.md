@@ -2,6 +2,9 @@
 Python Script which helps to get the dividend declared by Companies of Indian Stock Market from Moneycontrol.com
 
 Requirement :-
+  
+  ChromeWebdriver(specify the path or store in same folder)
+  
   Python 3.6+
     Library :-
       1) Selenium
