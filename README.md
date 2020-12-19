@@ -12,6 +12,11 @@ Requirement :-
       1) Selenium
       2) Pandas
 
+Input Files :-
+
+    facevalue.xlsx
+ 
+    stock_list.xlsx
 
 
 Python Files
