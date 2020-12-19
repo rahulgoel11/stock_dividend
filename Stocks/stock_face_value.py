@@ -10,7 +10,7 @@ class Facevalue:
         options = Options()
         # options.add_argument('--headless')
         # options.add_argument('--no-sandbox')
-        self.browser = webdriver.Chrome('chromedriver',chrome_options=options)
+        self.browser = webdriver.Chrome('D:/stocks/chromedriver',chrome_options=options)
 
     def find_xpath(self,inp_path):
         try:
@@ -21,7 +21,7 @@ class Facevalue:
 
     def main(self):
         #Face Value of stocks which is already saved, to avoid looping it again
-        stored_fv_df = pd.read_excel('facevalue.xlsx') #Specify your system input path
+        stored_fv_df = pd.read_excel('D:/stocks/facevalue.xlsx') #Specify your system input path
 
         self.browser.get('https://www.moneycontrol.com/stocks/marketinfo/dividends_declared/index.php')
         url_obj = self.browser.find_elements_by_class_name('bl_12')
@@ -60,7 +60,7 @@ class Facevalue:
         new_fv_df = stored_fv_df.append(face_val_df)
 
         #Output Path and file name,Specify you system output path
-        new_fv_df.to_excel('facevalue.xlsx', index=False)
+        new_fv_df.to_excel('D:/stocks/facevalue.xlsx', index=False)
 
         self.browser.quit()
 
