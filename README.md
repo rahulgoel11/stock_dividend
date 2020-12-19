@@ -3,6 +3,8 @@ Python Script which helps to get the dividend declared by Companies of Indian St
 
 Requirement :-
   
+  create folder in D:/stocks and store all files in it  or specify the path in code
+  
   ChromeWebdriver(specify the path or store in same folder)
   
   Python 3.6+
